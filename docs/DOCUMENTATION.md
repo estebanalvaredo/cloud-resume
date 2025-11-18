@@ -11,11 +11,11 @@ cloud-resume/
 ├── website/
 │   ├── index.html
 │   ├── styles.css
-│   └── README.md
-└── docs/
-├── setup.md
-├── DOCUMENTATION.md  ← (this file)
-└── images/
+├── README.md
+├── docs/
+│   ├── setup.md
+│   ├── DOCUMENTATION.md
+│   └── images/
 
 ---
 
