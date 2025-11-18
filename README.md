@@ -29,6 +29,7 @@ All deployment steps (with screenshots) are documented here:
 
 ## Project Structure
 
+```text
 cloud-resume/
 ├── website/
 │   ├── index.html
@@ -38,7 +39,7 @@ cloud-resume/
 │   ├── setup.md
 │   ├── DOCUMENTATION.md
 │   └── images/
-
+```
 
 ---
 
