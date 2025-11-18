@@ -1,1 +1,55 @@
-"<h1>Hola mundo</h1>" 
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Esteban Alvaredo — Cloud Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header">
+      <div class="photo" aria-hidden="true"></div>
+      <div>
+        <h1>Esteban Alvaredo</h1>
+        <p class="subtitle">AWS Certified Solutions Architect – Associate · Remote-first</p>
+        <p><a href="mailto:cloud@estebanalvaredo.com">cloud@estebanalvaredo.com</a></p>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>Technical consultant with 10+ years in hosting &amp; server support. Experience in Linux, DNS, WordPress migrations and premium incident resolution. Currently focused on cloud architecture, automation and infrastructure-as-code.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Linux & Servers (Plesk, Apache, Nginx)</li>
+        <li>AWS: EC2, S3, RDS, IAM, CloudFront</li>
+        <li>WordPress migrations, backup & malware cleanup</li>
+        <li>Basic Terraform, bash scripting</li>
+        <li>English: strong (work-level)</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>Cloud resume (this site) — hosted on AWS S3</li>
+        <li>WordPress migration demo — planned (On-premises → AWS)</li>
+        <li>Personal VPN with Terraform — planned</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Last updated: <span id="updated"></span></p>
+      <p style="font-size:0.9em;color:#666">GitHub: <a href="https://github.com/estebanalvaredo/cloud-resume" target="_blank">estebanalvaredo/cloud-resume</a></p>
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('updated').innerText = new Date().toLocaleDateString();
+  </script>
+</body>
+</html>
