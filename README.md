@@ -30,11 +30,11 @@ All deployment steps (with screenshots) are documented here:
 ## Project Structure
 
 cloud-resume/
-├── website/
+├── website
 │   ├── index.html
 │   ├── styles.css
 ├── README.md
-├── docs/
+├── docs
 │   ├── setup.md
 │   ├── DOCUMENTATION.md
 │   └── images/
