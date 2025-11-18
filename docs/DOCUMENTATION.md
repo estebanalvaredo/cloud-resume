@@ -7,6 +7,7 @@ All deployment steps and evidence are included below.
 
 ## Project Structure
 
+```text
 cloud-resume/
 ├── website/
 │   ├── index.html
@@ -16,6 +17,7 @@ cloud-resume/
 │   ├── setup.md
 │   ├── DOCUMENTATION.md
 │   └── images/
+```
 
 ---
 
